@@ -8,7 +8,7 @@ const greeting = {
   username: "Al-Amin Tokee",
   title: "Hi all, I'm Al-Amin",
   subTitle: emoji(
-    "MERN Developer 👨‍💻 | Backend/Frontend Engineer 🤖 | Tech Writer ✍️ "
+    "Software Engineer 👨‍💻 | Backend Developer(Python,JS) 🤖 | Tech Writer ✍️ "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ZbjNL8K-6oHFngXRr5PZkwNjzBZvAaGW/view?usp=sharing",
@@ -17,18 +17,20 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
+  phone: "+8801677942758",
   github: "https://github.com/Alamin-Tokee",
   linkedin: "https://www.linkedin.com/in/al-amin-tokee",
   gmail: "alameen.swe@gmail.com",
   facebook: "https://www.facebook.com/alaminhosen.tokee",
   twitter: "https://twitter.com/tokee_al",
+  youtube: "https://youtube.com/@uschas",
 };
 
 // Your Skills Section
 
 const skillsSection = {
   title: "Specialization",
-  subTitle: "HANDLING ALL MERN ACTIVITIES AND EXPLORING DATA SCIENCE",
+  subTitle: "HANDLING ALL BACKEND ACTIVITIES AND EXPLORING DATA SCIENCE",
   skills: [
     emoji(
       "⚡ Designing and developing website using ReactJS,NodeJS and ExpressJS"
@@ -82,6 +84,14 @@ const skillsSection = {
     },
 
     {
+      skillName: "Django",
+      classname: "vscode-icons:file-type-django",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+
+    {
       skillName: "ReactJS",
       classname: "simple-icons:react",
       style: {
@@ -103,6 +113,20 @@ const skillsSection = {
       },
     },
     {
+      skillName: "Docker",
+      classname: "logos:docker-icon",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "AWS",
+      classname: "logos:aws",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
       skillName: "MySql",
       classname: "logos:mysql",
       style: {
@@ -117,7 +141,7 @@ const skillsSection = {
       },
     },
     {
-      skillName: "PostgreSql",
+      skillName: "MongoDB",
       classname: "logos:mongodb-icon",
       style: {
         backgroundColor: "transparent",
@@ -125,20 +149,13 @@ const skillsSection = {
     },
 
     {
-      skillName: "Tensorflow",
-      classname: "logos-tensorflow",
+      skillName: "PyTorch",
+      classname: "logos:pytorch-icon",
       style: {
         backgroundColor: "transparent",
       },
     },
-    {
-      skillName: "Keras",
-      classname: "simple-icons:keras",
-      style: {
-        backgroundColor: "white",
-        color: "#D00000",
-      },
-    },
+
     {
       skillName: "Flask",
       classname: "simple-icons:flask",
@@ -154,6 +171,18 @@ const skillsSection = {
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Engineer Trainee",
+      company: "Walton Hi-Tech Industries PLC",
+      companylogo: require("./assets/images/walton.jpg"),
+      date: "February 2023 – Running",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // ],
+      color: "blue",
+    },
     {
       role: "Software Engineer Intern",
       company: "Sheraspace Ltd",
@@ -192,7 +221,7 @@ const openSource = {
   showProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
   display: true, // Set false to hide this section, defaults to true
   profile: {
-    bio: "MERN Developer 👨‍💻 | Backend/Frontend Engineer 🤖 | Tech Writer ✍️ ",
+    bio: "Software Engineer 👨‍💻 | Bakcend Developer(Python,JS) 🤖 | Tech Writer ✍️ ",
     location: "Dhaka, Bangladesh",
     hireable: "Yes",
     avatarUrl: require("./assets/images/Tokee.jpg"),
@@ -251,6 +280,22 @@ const particularProject = {
       language: "PHP, HTML, CSS,  MySql",
       diskUsage: "1800",
       url: "https://github.com/Alamin-Tokee",
+    },
+    {
+      name: "Blogging Application(Like Medium)",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "green",
+      language: "Python, Django, Bootstrap, PostgreSQL",
+      diskUsage: "1800",
+      url: "https://github.com/Alamin-Tokee/qspera",
+    },
+    {
+      name: "Query about study - StudyQuery",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "green",
+      language: "Python, Django, Bootstrap, SQLite3",
+      diskUsage: "1800",
+      url: "https://github.com/Alamin-Tokee/studyquery",
     },
   ],
 };
@@ -311,6 +356,42 @@ const certifications = {
         "https://www.kaggle.com/learn/certification/alamintokee/computer-vision",
       alt_name: "Zero To Mastery",
       color_code: "#FFFDDD",
+    },
+    {
+      title: "Deep Learning",
+      subtitle: "Datacamp Instructor",
+      logo_path: "datacamp.webp",
+      certificate_link:
+        "https://www.datacamp.com/statement-of-accomplishment/course/16a2387cf82444f006d0e96c42df65959a2b13c0",
+      alt_name: "RahulShettyAcademy",
+      color_code: "#FDE9EA",
+    },
+    {
+      title: "PowerBI Desktop",
+      subtitle: "Andrew Ng",
+      logo_path: "coursera.png",
+      certificate_link:
+        "https://coursera.org/share/ab86cf3cae8bef0f999ff231de4af56f",
+      alt_name: "Experitest",
+      color_code: "#F0FFDD",
+    },
+    {
+      title: "Agile Development(Scrum)",
+      subtitle: "Udemy Instructor",
+      logo_path: "udemy.png",
+      certificate_link:
+        "https://www.udemy.com/share/101w523@9gLte4fUgYc-6eUzjCwZcx6Qh9WID21q_DDWMeYNr5wVvPNhFz1-scI460FpWalPuQ==/",
+      alt_name: "Pierian-Data",
+      color_code: "#FEF6E6",
+    },
+    {
+      title: "IELTS",
+      subtitle: "British Council",
+      logo_path: "ielts.png",
+      certificate_link:
+        "https://www.udemy.com/share/101w523@9gLte4fUgYc-6eUzjCwZcx6Qh9WID21q_DDWMeYNr5wVvPNhFz1-scI460FpWalPuQ==/",
+      alt_name: "Pierian-Data",
+      color_code: "#E3F1FA",
     },
   ],
 };

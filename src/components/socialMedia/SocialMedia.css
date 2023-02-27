@@ -24,6 +24,10 @@
     width: 2.6rem;
     margin-bottom: 10px;
   }
+
+  .phone i {
+      background-color: #23ca55;
+  }
   
   .facebook i {
     background-color: #3b5998;
@@ -52,6 +56,12 @@
   .instagram i {
     background-color: #c13584;
   }
+
+  .youtube i {
+      background-color: #ff0000;
+  }
+
+
   
   /* Hover Transition */
   .twitter i:hover,
