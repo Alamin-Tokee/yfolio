@@ -11,6 +11,7 @@ import Experience from "./experience/Experience";
 import Top from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import Projects from "./projects/Projects";
+import Publications from "./publications/Publications";
 
 export const Container = () => {
   return (
@@ -20,6 +21,7 @@ export const Container = () => {
       <Skills />
       <Experience />
       <Projects />
+      <Publications />
       <Certifications />
       <Blogs />
       <Profile />

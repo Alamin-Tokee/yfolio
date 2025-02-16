@@ -6,9 +6,9 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   username: "Al-Amin Tokee",
-  title: "Hi all, I'm Al-Amin",
+  title: "Hi, I'm Al-Amin",
   subTitle: emoji(
-    "Software Engineer 👨‍💻 | Backend Developer(Python,JS) 🤖 | Tech Writer ✍️ "
+    "Software Engineer 👨‍💻 | Machine Leaning 🤖 | Deep Learning ✍️ "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ZbjNL8K-6oHFngXRr5PZkwNjzBZvAaGW/view?usp=sharing",
@@ -172,10 +172,46 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer Trainee",
+      role: "Deputy Assistant Director(SDE-III)",
       company: "Walton Hi-Tech Industries PLC",
       companylogo: require("./assets/images/walton.jpg"),
-      date: "February 2023 – Running",
+      date: "Jan 2025 – Running",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // ],
+      color: "blue",
+    },
+    {
+      role: "Senior Principal Officer(SDE-II)",
+      company: "Walton Hi-Tech Industries PLC",
+      companylogo: require("./assets/images/walton.jpg"),
+      date: "Jan 2021 – Dec 2024",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // ],
+      color: "blue",
+    },
+    {
+      role: "Principal Officer(SDE-I)",
+      company: "Walton Hi-Tech Industries PLC",
+      companylogo: require("./assets/images/walton.jpg"),
+      date: "Sep 2023 – Dec 2023",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // ],
+      color: "blue",
+    },
+    {
+      role: "Software Engineer Apprentice",
+      company: "Walton Hi-Tech Industries PLC",
+      companylogo: require("./assets/images/walton.jpg"),
+      date: "Feb 2023 – Aug 20",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -187,7 +223,7 @@ const workExperiences = {
       role: "Software Engineer Intern",
       company: "Sheraspace Ltd",
       companylogo: require("./assets/images/sheraspaceLogo.png"),
-      date: "April 2022 – June-2022",
+      date: "Apr 2022 – Jun-2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -221,7 +257,7 @@ const openSource = {
   showProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
   display: true, // Set false to hide this section, defaults to true
   profile: {
-    bio: "Software Engineer 👨‍💻 | Bakcend Developer(Python,JS) 🤖 | Tech Writer ✍️ ",
+    bio: "Software Engineer 👨‍💻 | Machine Learning 🤖 | Deep Learning ✍️ ",
     location: "Dhaka, Bangladesh",
     hireable: "Yes",
     avatarUrl: require("./assets/images/Tokee.jpg"),
@@ -243,6 +279,77 @@ const particularProject = {
     },
     {
       name: "Ecommerce Appllication - ebazar",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "yellow",
+      language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
+      diskUsage: "2200",
+      url: "https://github.com/Alamin-Tokee",
+    },
+    {
+      name: "File Sharing Application - eshare",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "yellow",
+      language: "JavaScript, EJS, NodeJS, ExpressJS, MongoDB",
+      diskUsage: "2200",
+      url: "https://github.com/Alamin-Tokee",
+    },
+    {
+      name: "Online Course Apllication - qcourse",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "yellow",
+      language: "JavaScript, NodeJS, ReactJS, ExpressJS",
+      diskUsage: "2200",
+      url: "https://github.com/Alamin-Tokee",
+    },
+    {
+      name: "Mobile job application - ejob",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "navy",
+      language: "Python, Django, PostgreSQl",
+      diskUsage: "2000",
+      url: "https://github.com/Alamin-Tokee",
+    },
+    {
+      name: "Online helth help application - ehelth",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "green",
+      language: "PHP, HTML, CSS,  MySql",
+      diskUsage: "1800",
+      url: "https://github.com/Alamin-Tokee",
+    },
+    {
+      name: "Blogging Application(Like Medium)",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "green",
+      language: "Python, Django, Bootstrap, PostgreSQL",
+      diskUsage: "1800",
+      url: "https://github.com/Alamin-Tokee/qspera",
+    },
+    {
+      name: "Query about study - StudyQuery",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "green",
+      language: "Python, Django, Bootstrap, SQLite3",
+      diskUsage: "1800",
+      url: "https://github.com/Alamin-Tokee/studyquery",
+    },
+  ],
+};
+
+// Show your Particular publications
+
+const particularPublication = {
+  projects: [
+    {
+      name: "Colon Polyps Detection from colonscopy images using Deep Learning",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "yellow",
+      language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
+      diskUsage: "2200",
+      url: "https://github.com/Alamin-Tokee",
+    },
+    {
+      name: "Gun Detection using Deep Learning",
       desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       color: "yellow",
       language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
@@ -447,6 +554,7 @@ export {
   openSource,
   blogSection,
   particularProject,
+  particularPublication,
   contactInfo,
   certifications,
 };

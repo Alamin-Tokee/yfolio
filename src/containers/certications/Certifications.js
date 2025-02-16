@@ -7,7 +7,7 @@ import CertificationCard from "../../components/certificationCard/CertificationC
 const Certifications = () => {
   return (
     <Fade bottom duration={100} distance="20px">
-      <div className="main" id="certications">
+      <div className="main" id="achievements">
         <h1 className="cert-header-title">Certifications</h1>
         <div className="cert-main-div">
           <div className="cert-text-div">
