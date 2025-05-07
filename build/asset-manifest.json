@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/yfolio/static/css/main.92ac7194.css",
+    "main.js": "/yfolio/static/js/main.979543c5.js",
+    "static/js/787.f3ff4440.chunk.js": "/yfolio/static/js/787.f3ff4440.chunk.js",
+    "static/media/hackerrank.png": "/yfolio/static/media/hackerrank.30b7978c067741383864.png",
+    "static/media/diuLogo.png": "/yfolio/static/media/diuLogo.d461b2e5763c01ca3184.png",
+    "static/media/Tokee.jpg": "/yfolio/static/media/Tokee.56f36e579aabd32b02ea.jpg",
+    "static/media/ielts.png": "/yfolio/static/media/ielts.8a273f61eb297af516d5.png",
+    "static/media/postman.png": "/yfolio/static/media/postman.4d4f217d9935b058bc31.png",
+    "static/media/udemy.png": "/yfolio/static/media/udemy.d00f3f06b48903262f56.png",
+    "static/media/coursera.png": "/yfolio/static/media/coursera.049dfa3f4e1ea59dc37f.png",
+    "static/media/walton.jpg": "/yfolio/static/media/walton.51cf164e38d7a8109aa5.jpg",
+    "static/media/greetingsection.jpg": "/yfolio/static/media/greetingsection.b3154c98da3057934558.jpg",
+    "static/media/gfgLogo.png": "/yfolio/static/media/gfgLogo.3a7941878b862466c428.png",
+    "static/media/skillsection.jpg": "/yfolio/static/media/skillsection.bb383d5297e8738b3e8d.jpg",
+    "static/media/datacamp.webp": "/yfolio/static/media/datacamp.5f344702837f6832d532.webp",
+    "static/media/logo.svg": "/yfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/yfolio/index.html",
+    "main.92ac7194.css.map": "/yfolio/static/css/main.92ac7194.css.map",
+    "main.979543c5.js.map": "/yfolio/static/js/main.979543c5.js.map",
+    "787.f3ff4440.chunk.js.map": "/yfolio/static/js/787.f3ff4440.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92ac7194.css",
+    "static/js/main.979543c5.js"
+  ]
+}

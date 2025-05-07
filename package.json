@@ -18,9 +18,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+=======
+    "eject": "react-scripts eject"
+>>>>>>> 9e4bf2484c92eb6c15d20f87f9494d69f7a2553d
   },
   "eslintConfig": {
     "extends": [
@@ -39,9 +43,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
   "homepage": "https://Alamin-Tokee.github.io/yfolio"
+=======
+  }
+>>>>>>> 9e4bf2484c92eb6c15d20f87f9494d69f7a2553d
 }
