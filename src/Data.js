@@ -24,23 +24,37 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/alaminhosen.tokee",
   twitter: "https://x.com/tokee_al",
   youtube: "https://youtube.com/@apostrophe4u",
+  google_scholar: "https://scholar.google.com/citations?user=XfAQNCgAAAAJ&hl=en&authuser=2"
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "Specialization",
-  subTitle: "HANDLING ALL BACKEND ACTIVITIES AND EXPLORING DATA SCIENCE",
+  title: "Specialization & Interest",
+  subTitle: "Handling all backend activities and exploring data science",
+  // skills: [
+  //   emoji(
+  //     "⚡ Designing and developing website using ReactJS,NodeJS and ExpressJS"
+  //   ),
+  //   emoji("⚡ End to End frontend and backend executions"),
+  //   emoji(
+  //     "⚡ Working on development technology like VSCode, Git, Linux, Postman, Docker, Sublime Text, Figma, Jupiter Notebook, etc"
+  //   ),
+  //   emoji(
+  //     "⚡ Building predictive models to extract insights and make decisions out of data"
+  //   ),
+  // ],
+
   skills: [
     emoji(
-      "⚡ Designing and developing website using ReactJS,NodeJS and ExpressJS"
+      "⚡ Machine Learning, Deep Learning, Federated Learning"
     ),
-    emoji("⚡ End to End frontend and backend executions"),
+    emoji("⚡ Computer Vision, Natural Language Processing (NLP)"),
     emoji(
-      "⚡ Working on development technology like VSCode, Git, Linux, Postman, Docker, Sublime Text, Figma, Jupiter Notebook, etc"
+      "⚡ Internet of Things (IoT), Human Artificial Intelligence Interaction"
     ),
     emoji(
-      "⚡ Building predictive models to extract insights and make decisions out of data"
+      "⚡ AI in Healthcare, AI in Cyber Security, AI in Software Engineering"
     ),
   ],
 
@@ -244,7 +258,7 @@ const workExperiences = {
       company: "Geeksforgeeks",
       companylogo: require("./assets/images/gfgLogo.png"),
       date: "Jan 2019 – Sep 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Contributed technical articles to GeeksforGeeks on algorithms, data structures, machine learning (ML), deep learning (DL), and software development to support and educate the developer community.",
       color: "green",
     },
   ],
@@ -279,7 +293,7 @@ const particularEducation = {
     },
     {
       name: "BAF Shaheen School & College, Paharkanchanpur, Sakhipur, Tangail",
-      desc: "Higher Secondary School Certificate(HSC) (90% Mark)",
+      desc: "Higher Secondary School Certificate(HSC)",
       color: "yellow",
       language: "Project: Proposed a Smart and Sustainable Urban Development Framework",
       diskUsage: "Year - 2017",
@@ -287,7 +301,7 @@ const particularEducation = {
     },
     {
       name: "Mohanandapur Bijoy Smriti High School, Mohanandapur, Sakhipur, Tangail",
-      desc: "Secondary School Certificate(SSC) (90% Mark)",
+      desc: "Secondary School Certificate(SSC)",
       color: "yellow",
       language: "Project: Proposed a Smart and Sustainable Urban Development Framework",
       diskUsage: "Year - 2015",
@@ -302,7 +316,7 @@ const particularEducation = {
 const particularProject = {
   projects: [
     {
-      name: "Optimax: Compressor production machine performance matrix",
+      name: "Optimax: Compressor production machine performance matrix(Professional)",
       desc: "2025, Developed a real-time data acquisition system using Python and Siemens PLCs with MQTT protocol. Stored data in MySQL and visualized key compressor metrics via a web dashboard built with ReactJS and NodeJS. Optimized MySQL data models to support time-series analysis for performance monitoring and maintenance forecasting.",
       color: "yellow",
       language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
@@ -310,7 +324,7 @@ const particularProject = {
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Qcmatrix: Air conditioner oqc and lift qc system for component tracking and quality assurance",
+      name: "Qcmatrix: Air conditioner oqc and lift qc system for component tracking and quality assurance(Professional)",
       desc: "Running, Developed a QC system for tracking 1,000+ components per lift project. Enabled R&I teams to initiate and QC teams to verify against predefined criteria. Builtb real-time dashboards using PHP, JavaScript, jQuery, and AJAX with PostgreSQL backend for efficient QC record management and stakeholder monitoring.",
       color: "yellow",
       language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
@@ -318,7 +332,7 @@ const particularProject = {
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Metalflow: Real-time power press machine production analytics, Industry Project",
+      name: "Metalflow: Real-time power press machine production analytics(Professional)",
       desc: "Developed a full-stack monitoring system for real-time analytics of power press machines using Python, Siemens PLCs, and MQTT. Stored production and efficiency data in a MySQL backend. Built a dynamic dashboard with PHP, AJAX, JavaScript, and jQuery to provide actionable insights on equipment performance, downtime, and operator productivity.,",
       color: "yellow",
       language: "JavaScript, EJS, NodeJS, ExpressJS, MongoDB",
@@ -326,7 +340,7 @@ const particularProject = {
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Weldtrack: Smart monitoring and operator efficiency system for welding machine",
+      name: "Weldtrack: Smart monitoring and operator efficiency system for welding machine(Professional)",
       desc: "Designed a data acquisition system using a Single Board Computer (SBC) and Python to monitor ultrasonic welding machines in real-time. Stored performance metrics in MySQL. Built a React Native mobile app for operator time logging and integrated it with machine data to calculate shift-wise performance and efficiency. Developed a responsive dashboard using NodeJS, ReactJS, and Redux to visualize KPIs and machine health.",
       color: "yellow",
       language: "JavaScript, NodeJS, ReactJS, ExpressJS",
@@ -334,7 +348,7 @@ const particularProject = {
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Poramorsho: Ai-powered crop cultivation recommendation engine",
+      name: "Poramorsho: Ai-powered crop cultivation recommendation engine(Professional)",
       desc: "Developed a machine learning–based recommendation engine for crop selection using soil pH, weather, and precipitation data. Trained Random Forest, Logistic Regression, Decision Tree, and ANN models to improve yield prediction. Built a Django REST API for real-time integration with farmers’ systems and used PostgreSQL and Apache for scalable data and server management.",
       color: "navy",
       language: "Python, Django, PostgreSQl",
@@ -342,7 +356,7 @@ const particularProject = {
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Stocksage: Smart inventory management system for finished goods",
+      name: "Stocksage: Smart inventory management system for finished goods(Professional)",
       desc: "Developed a React Native mobile app with QR code scanning to track finished goods from production to storage. Enabled delivery updates and resource release through scanning. Built a React + Node.js dashboard for real-time stock and delivery tracking. Used Oracle for high-volume transactional data and MySQL for time-sensitive stock queries, ensuring performance and reliability with a hybrid DB model.",
       color: "green",
       language: "PHP, HTML, CSS,  MySql",
@@ -350,15 +364,15 @@ const particularProject = {
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Blogging Application(Like Medium)",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      name: "Qsheba - Mobile worker hiring platform(Personal)",
+      desc: "An application that helps to search mobile workers like electricians, painters, etc.Accomplished validation, authentication, search worker, worker communication, and email service for verification",
       color: "green",
-      language: "Python, Django, Bootstrap, PostgreSQL",
+      language: "Technologies - Django, Django Rest API, PostgreSQL, Redis, ReactNative",
       diskUsage: "1800",
       url: "https://github.com/Alamin-Tokee/qspera",
     },
     {
-      name: "Query about study - StudyQuery",
+      name: "StudyQuery - Query about study(Personal)",
       desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       color: "green",
       language: "Python, Django, Bootstrap, SQLite3",
@@ -421,21 +435,21 @@ const particularPublication = {
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Blogging Application(Like Medium)",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      name: "A novel approach for brain tumor detection:U-net segmentation and glcm feature extraction combined with ensemble machine learning models",
+      desc: "The study emphasizes the importance of early detection of brain tumors, leveraging MRI for its effectiveness. The researchers applied ensemble machine learning algorithms to detect early-stage brain tumors. The study achieved an impressive average accuracy of 0.998, with the highest accuracy of 0.992 using the XGBoost classifier algorithm. The process included data collection, analysis, and filtering to refine the model's accuracy.",
       color: "green",
-      language: "Python, Django, Bootstrap, PostgreSQL",
+      language: "Md. Al Amin, Bikash Kumar Paul, Rafid Mostafiz, Md. Zahid Hasan Ontor",
       diskUsage: "1800",
       url: "https://github.com/Alamin-Tokee/qspera",
     },
-    {
-      name: "Query about study - StudyQuery",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      color: "green",
-      language: "Python, Django, Bootstrap, SQLite3",
-      diskUsage: "1800",
-      url: "https://github.com/Alamin-Tokee/studyquery",
-    },
+    // {
+    //   name: "Query about study - StudyQuery",
+    //   desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    //   color: "green",
+    //   language: "Python, Django, Bootstrap, SQLite3",
+    //   diskUsage: "1800",
+    //   url: "https://github.com/Alamin-Tokee/studyquery",
+    // },
   ],
 };
 

@@ -25,6 +25,7 @@ const Skills = () => {
             </p>
             <SoftwareSkill />
             <div>
+              <h1>Research Interest</h1>
               {skillsSection.skills.map((skills) => {
                 return <p className="subTitle skills-text">{skills}</p>;
               })}
