@@ -176,7 +176,7 @@ const workExperiences = {
       company: "Walton Hi-Tech Industries PLC",
       companylogo: require("./assets/images/walton.jpg"),
       date: "Jan 2025 – Running",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "PLC, SBC, MQTT, Python, Scikit-learn, PyTorch, Django, Kafka",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -188,7 +188,7 @@ const workExperiences = {
       company: "Walton Hi-Tech Industries PLC",
       companylogo: require("./assets/images/walton.jpg"),
       date: "Jan 2021 – Dec 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "PLC, SBC, Python, GO, PostgreSQL, Docker",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -200,7 +200,7 @@ const workExperiences = {
       company: "Walton Hi-Tech Industries PLC",
       companylogo: require("./assets/images/walton.jpg"),
       date: "Sep 2023 – Dec 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "ReactJS, NodeJS, Redis, MongoDB, MySQL",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -212,7 +212,7 @@ const workExperiences = {
       company: "Walton Hi-Tech Industries PLC",
       companylogo: require("./assets/images/walton.jpg"),
       date: "Feb 2023 – Aug 20",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "PHP, JavaScript, jQuery, AJAX, MySQL, Oracle",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -224,7 +224,7 @@ const workExperiences = {
       company: "Sheraspace Ltd",
       companylogo: require("./assets/images/sheraspaceLogo.png"),
       date: "Apr 2022 – Jun-2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Flask, ReactJS, Python, APIs, PostgreSQL",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -236,7 +236,7 @@ const workExperiences = {
       company: "Daffodil International University",
       companylogo: require("./assets/images/diuLogo.png"),
       date: "May 2019 – May 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "C/C++, Algorithm, Data Structure, Competative Programming, Mathmatics",
       color: "navy",
     },
     {
@@ -264,6 +264,38 @@ const openSource = {
     name: "Al-Amin Tokee",
   },
 };
+
+
+//Show Education 
+const particularEducation = {
+  projects: [
+    {
+      name: "Daffodil International University, Ashulia, Savar, Dhaka",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "yellow",
+      language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
+      diskUsage: "2200",
+      url: "https://daffodilvarsity.edu.bd/",
+    },
+    {
+      name: "BAF Shaheen School & College, Paharkanchanpur, Sakhipur, Tangail",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "yellow",
+      language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
+      diskUsage: "2200",
+      url: "https://bafspkp.edu.bd/",
+    },
+    {
+      name: "Mohanandapur Bijoy Smriti High School, Mohanandapur, Sakhipur, Tangail",
+      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      color: "yellow",
+      language: "JavaScript, EJS, NodeJS, ExpressJS, MongoDB",
+      diskUsage: "2200",
+      url: "https://mbshs.edu.bd/",
+    },
+  ],
+};
+
 
 // Show your Particular Project
 
@@ -553,6 +585,7 @@ export {
   workExperiences,
   openSource,
   blogSection,
+  particularEducation,
   particularProject,
   particularPublication,
   contactInfo,

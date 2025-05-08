@@ -11,6 +11,7 @@ import Experience from "./experience/Experience";
 import Top from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import Projects from "./projects/Projects";
+import Educations from "./educations/Educations";
 import Publications from "./publications/Publications";
 
 export const Container = () => {
@@ -19,6 +20,7 @@ export const Container = () => {
       <Header />
       <Greeting />
       <Skills />
+      <Educations />
       <Experience />
       <Projects />
       <Publications />
