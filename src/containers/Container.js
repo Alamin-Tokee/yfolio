@@ -22,8 +22,8 @@ export const Container = () => {
       <Skills />
       <Educations />
       <Experience />
-      <Projects />
       <Publications />
+      <Projects />
       <Certifications />
       <Blogs />
       <Profile />

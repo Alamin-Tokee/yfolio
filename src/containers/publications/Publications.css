@@ -10,10 +10,13 @@
     height: auto;
 }
 
-.repo-cards-div-main {
+.repo-cards-div-main-pub {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1rem 1rem;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem 1rem; */
+
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 /* Media Query */
@@ -29,7 +32,7 @@
         text-align: center;
     }
 
-    .repo-cards-div-main {
+    .repo-cards-div-main-pub {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
