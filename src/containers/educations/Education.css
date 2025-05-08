@@ -32,7 +32,11 @@
         text-align: center;
     }
 
-    .repo-cards-div-main {
+    /*.repo-cards-div-main {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }*/
+
+    .repo-cards-div-main-edu {
+        grid-template-columns:  1fr;
     }
 }

@@ -11,7 +11,7 @@ const greeting = {
     "Software Engineer 👨‍💻 | Machine Leaning 🤖 | Deep Learning ✍️ "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ZbjNL8K-6oHFngXRr5PZkwNjzBZvAaGW/view?usp=sharing",
+    "https://drive.google.com/file/d/1B1UjOeu5T54yPR8E_1Br-NWS52kkpLG9/view?usp=sharing",
 };
 
 // Your Social Media Link
@@ -20,10 +20,10 @@ const socialMediaLinks = {
   phone: "+8801677942758",
   github: "https://github.com/Alamin-Tokee",
   linkedin: "https://www.linkedin.com/in/al-amin-tokee",
-  gmail: "alameen.swe@gmail.com",
+  gmail: "almin11-593@diu.edu.bd",
   facebook: "https://www.facebook.com/alaminhosen.tokee",
-  twitter: "https://twitter.com/tokee_al",
-  youtube: "https://youtube.com/@uschas",
+  twitter: "https://x.com/tokee_al",
+  youtube: "https://youtube.com/@apostrophe4u",
 };
 
 // Your Skills Section
@@ -271,26 +271,26 @@ const particularEducation = {
   projects: [
     {
       name: "Daffodil International University, Ashulia, Savar, Dhaka",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      desc: "B.Sc in Software Engineering (CGPA:3.89/4) (3.95 last two semesters) ",
       color: "yellow",
-      language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
-      diskUsage: "2200",
+      language: "Thesis: Colon Polys Detection from Colonoscopy Images Using YOLO",
+      diskUsage: "Year - 2022",
       url: "https://daffodilvarsity.edu.bd/",
     },
     {
       name: "BAF Shaheen School & College, Paharkanchanpur, Sakhipur, Tangail",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      desc: "Higher Secondary School Certificate(HSC) (90% Mark)",
       color: "yellow",
-      language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
-      diskUsage: "2200",
+      language: "Project: Proposed a Smart and Sustainable Urban Development Framework",
+      diskUsage: "Year - 2017",
       url: "https://bafspkp.edu.bd/",
     },
     {
       name: "Mohanandapur Bijoy Smriti High School, Mohanandapur, Sakhipur, Tangail",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      desc: "Secondary School Certificate(SSC) (90% Mark)",
       color: "yellow",
-      language: "JavaScript, EJS, NodeJS, ExpressJS, MongoDB",
-      diskUsage: "2200",
+      language: "Project: Proposed a Smart and Sustainable Urban Development Framework",
+      diskUsage: "Year - 2015",
       url: "https://mbshs.edu.bd/",
     },
   ],
@@ -302,51 +302,51 @@ const particularEducation = {
 const particularProject = {
   projects: [
     {
-      name: "Social Media Application - qbook",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      name: "Optimax: Compressor production machine performance matrix",
+      desc: "2025, Developed a real-time data acquisition system using Python and Siemens PLCs with MQTT protocol. Stored data in MySQL and visualized key compressor metrics via a web dashboard built with ReactJS and NodeJS. Optimized MySQL data models to support time-series analysis for performance monitoring and maintenance forecasting.",
       color: "yellow",
       language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
-      diskUsage: "2200",
+      diskUsage: "June 2024 – March 2025",
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Ecommerce Appllication - ebazar",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      name: "Qcmatrix: Air conditioner oqc and lift qc system for component tracking and quality assurance",
+      desc: "Running, Developed a QC system for tracking 1,000+ components per lift project. Enabled R&I teams to initiate and QC teams to verify against predefined criteria. Builtb real-time dashboards using PHP, JavaScript, jQuery, and AJAX with PostgreSQL backend for efficient QC record management and stakeholder monitoring.",
       color: "yellow",
       language: "JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB",
-      diskUsage: "2200",
+      diskUsage: "April 2025 – Running",
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "File Sharing Application - eshare",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      name: "Metalflow: Real-time power press machine production analytics, Industry Project",
+      desc: "Developed a full-stack monitoring system for real-time analytics of power press machines using Python, Siemens PLCs, and MQTT. Stored production and efficiency data in a MySQL backend. Built a dynamic dashboard with PHP, AJAX, JavaScript, and jQuery to provide actionable insights on equipment performance, downtime, and operator productivity.,",
       color: "yellow",
       language: "JavaScript, EJS, NodeJS, ExpressJS, MongoDB",
-      diskUsage: "2200",
+      diskUsage: "March 2024 – Oct 2024",
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Online Course Apllication - qcourse",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      name: "Weldtrack: Smart monitoring and operator efficiency system for welding machine",
+      desc: "Designed a data acquisition system using a Single Board Computer (SBC) and Python to monitor ultrasonic welding machines in real-time. Stored performance metrics in MySQL. Built a React Native mobile app for operator time logging and integrated it with machine data to calculate shift-wise performance and efficiency. Developed a responsive dashboard using NodeJS, ReactJS, and Redux to visualize KPIs and machine health.",
       color: "yellow",
       language: "JavaScript, NodeJS, ReactJS, ExpressJS",
-      diskUsage: "2200",
+      diskUsage: "Oct 2023 – Apr 2024",
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Mobile job application - ejob",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      name: "Poramorsho: Ai-powered crop cultivation recommendation engine",
+      desc: "Developed a machine learning–based recommendation engine for crop selection using soil pH, weather, and precipitation data. Trained Random Forest, Logistic Regression, Decision Tree, and ANN models to improve yield prediction. Built a Django REST API for real-time integration with farmers’ systems and used PostgreSQL and Apache for scalable data and server management.",
       color: "navy",
       language: "Python, Django, PostgreSQl",
-      diskUsage: "2000",
+      diskUsage: "Jan 2023 – June 2023",
       url: "https://github.com/Alamin-Tokee",
     },
     {
-      name: "Online helth help application - ehelth",
-      desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      name: "Stocksage: Smart inventory management system for finished goods",
+      desc: "Developed a React Native mobile app with QR code scanning to track finished goods from production to storage. Enabled delivery updates and resource release through scanning. Built a React + Node.js dashboard for real-time stock and delivery tracking. Used Oracle for high-volume transactional data and MySQL for time-sensitive stock queries, ensuring performance and reliability with a hybrid DB model.",
       color: "green",
       language: "PHP, HTML, CSS,  MySql",
-      diskUsage: "1800",
+      diskUsage: "March 2023 – Nov 2023",
       url: "https://github.com/Alamin-Tokee",
     },
     {
