@@ -8,7 +8,7 @@ import { Fade } from "react-reveal";
 const Educations = () => {
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
+      <div className="main" id="educations">
         <h1 className="project-title">Education</h1>
         <div className="repo-cards-div-main-edu">
           {particularEducation.projects.map((v, i) => {

@@ -20,7 +20,7 @@ const socialMediaLinks = {
   phone: "+8801677942758",
   github: "https://github.com/Alamin-Tokee",
   linkedin: "https://www.linkedin.com/in/al-amin-tokee",
-  gmail: "almin11-593@diu.edu.bd",
+  gmail: "alamin11-593@diu.edu.bd",
   facebook: "https://www.facebook.com/alaminhosen.tokee",
   twitter: "https://x.com/tokee_al",
   youtube: "https://youtube.com/@apostrophe4u",

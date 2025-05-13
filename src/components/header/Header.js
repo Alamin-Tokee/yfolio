@@ -24,13 +24,16 @@ const Header = () => {
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#educations">Educations</a>
           </li>
           <li>
-            <a href="#projects">Project</a>
+            <a href="#experience">Experiences</a>
           </li>
           <li>
-            <a href="#publications">Publication</a>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#publications">Publications</a>
           </li>
           <li>
             <a href="#achievements">Achievements</a>
