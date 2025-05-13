@@ -12,9 +12,8 @@
 
 .repo-cards-div-main-pub {
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1rem 1rem; */
-
+    /*grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem 1rem;*/
     grid-template-columns: 1fr;
     gap: 1rem;
 }

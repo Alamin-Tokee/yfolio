@@ -16,7 +16,7 @@ const Projects = () => {
           })}
         </div>
         <Button
-          text={"More Publications"}
+          text={"More Projects"}
           className="project-button"
           href={socialMediaLinks.google_scholar}
           newTab={true}
