@@ -5,7 +5,7 @@ import { socialMediaLinks, particularPublication } from "../../Data";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 import { Fade } from "react-reveal";
 
-const Projects = () => {
+const Publications = () => {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="publications">
@@ -16,7 +16,7 @@ const Projects = () => {
           })}
         </div>
         <Button
-          text={"More Projects"}
+          text={"More Publications"}
           className="project-button"
           href={socialMediaLinks.google_scholar}
           newTab={true}
@@ -26,4 +26,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Publications;
