@@ -11,7 +11,7 @@ const greeting = {
     "Software Engineer 👨‍💻 | Researcher 🤖 | Mentor ✍️ "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1B1UjOeu5T54yPR8E_1Br-NWS52kkpLG9/view?usp=sharing",
+    "https://drive.google.com/file/d/1xlQImL46EWCBUPNeGln-mLh2RxaigfXs/view?usp=sharing",
 };
 
 // Your Social Media Link
@@ -271,7 +271,7 @@ const openSource = {
   showProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
   display: true, // Set false to hide this section, defaults to true
   profile: {
-    bio: "Software Engineer 👨‍💻 | Machine Learning 🤖 | Deep Learning ✍️ ",
+    bio: "Software Engineer 👨‍💻 | Researcher 🤖 | Mentor ✍️ ",
     location: "Dhaka, Bangladesh",
     hireable: "Yes",
     avatarUrl: require("./assets/images/Tokee.jpg"),
