@@ -11,7 +11,7 @@ const greeting = {
     "Software Engineer 👨‍💻 | Researcher 🤖 | Mentor ✍️ "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1xlQImL46EWCBUPNeGln-mLh2RxaigfXs/view?usp=sharing",
+    "https://drive.google.com/file/d/1J6axh9fS4WtV4YkWmkoKO-8EXIAL_2Bx/view",
 };
 
 // Your Social Media Link
@@ -274,7 +274,7 @@ const openSource = {
     bio: "Software Engineer 👨‍💻 | Researcher 🤖 | Mentor ✍️ ",
     location: "Dhaka, Bangladesh",
     hireable: "Yes",
-    avatarUrl: require("./assets/images/Tokee.jpg"),
+    avatarUrl: require("./assets/images/Alamin.jpg"),
     name: "Al-Amin Tokee",
   },
 };
