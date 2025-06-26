@@ -1,6 +1,7 @@
 .project-title {
-    font-size: 52px;
-    font-weight: 400;
+    /* font-size: 52px; */
+    /* font-weight: 400; */
+    font-weight: bold;
     list-style: normal;
 }
 
@@ -22,7 +23,8 @@
 /* Media Query */
 @media (max-width: 1380px) {
     .project-title {
-        font-size: 40px;
+        /* font-size: 40px; */
+        font-size: bold;
     }
 }
 

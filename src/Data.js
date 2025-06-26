@@ -12,6 +12,8 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1J6axh9fS4WtV4YkWmkoKO-8EXIAL_2Bx/view",
+  about : "I am a highly motivated and detail-oriented professional with a solid background in software engineering and a deep interest in the fields of artificial intelligence (AI), machine learning (ML), deep learning, computer vision, and natural language processing (NLP). With two years of industry experience as a software engineer, I have developed and deployed scalable software solutions, gained practical knowledge of system design and development workflows, and become proficient in working with both structured and unstructured data. Throughout my professional and academic journey, I have been driven by a curiosity to understand how machines learn, interpret, and interact with the world—particularly in healthcare, where AI technologies have the potential to revolutionize diagnostics, patient care, and clinical workflows. My work has increasingly focused on leveraging deep learning models such as convolutional neural networks (CNNs) and transformers for medical image analysis, disease prediction, and automated reporting. In the area of NLP, I am particularly interested in applying language models to electronic health records (EHR), symptom extraction, and conversational agents for healthcare support. I completed my undergraduate studies at Daffodil International University (DIU) with high academic distinction, where I built a strong foundation in programming, algorithms, and data structures, and also initiated my exploration into AI and its applications in healthcare. During my studies, I engaged in personal and collaborative projects that applied computer vision techniques to medical datasets and used NLP tools to process health-related texts. I am now seeking opportunities—both academic and applied—where I can contribute to impactful AI research, work on real-world healthcare challenges, and collaborate in multidisciplinary environments. My goal is to continue building intelligent systems that make a meaningful difference in human well-being, while expanding my knowledge of cutting-edge developments in AI and machine learning."
+
 };
 
 // Your Social Media Link
@@ -190,7 +192,9 @@ const workExperiences = {
       company: "Walton Hi-Tech Industries PLC",
       companylogo: require("./assets/images/walton.jpg"),
       date: "Jan 2025 – Running",
-      desc: "PLC, SBC, MQTT, Python, Scikit-learn, PyTorch, Django, Kafka",
+      desc: "Developed machine automation IOT project and built scalable web dashboard and APIs, integrating real-time data streaming for efficient system performance.",
+      tech: "PLC, SBC, MQTT, Python, Scikit-learn, PyTorch, Django, Kafka",
+      url : "waltonbd.com",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -202,7 +206,9 @@ const workExperiences = {
       company: "Walton Hi-Tech Industries PLC",
       companylogo: require("./assets/images/walton.jpg"),
       date: "Jan 2021 – Dec 2024",
-      desc: "PLC, SBC, Python, GO, PostgreSQL, Docker",
+      desc: "Managed manufacturing IOT project, containerized applications for reliable deployment, and built high-performance concurrent systems.",
+      tech: "PLC, SBC, Python, GO, PostgreSQL, Docker",
+      url : "waltonbd.com",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -214,7 +220,9 @@ const workExperiences = {
       company: "Walton Hi-Tech Industries PLC",
       companylogo: require("./assets/images/walton.jpg"),
       date: "Sep 2023 – Dec 2023",
-      desc: "ReactJS, NodeJS, Redis, MongoDB, MySQL",
+      desc: "Built scalable backend systems to handle large volume manufacturing data and a caching system for handling unstructured data.",
+      tech: "ReactJS, NodeJS, Redis, MongoDB, MySQL",
+      url : "waltonbd.com",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -226,7 +234,9 @@ const workExperiences = {
       company: "Walton Hi-Tech Industries PLC",
       companylogo: require("./assets/images/walton.jpg"),
       date: "Feb 2023 – Aug 20",
-      desc: "PHP, JavaScript, jQuery, AJAX, MySQL, Oracle",
+      desc: "Developed full-stack web applications with dynamic front-end interactions and optimized back-end database performance.",
+      tech: "PHP, JavaScript, jQuery, AJAX, MySQL, Oracle",
+      url : "waltonbd.com",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -238,7 +248,9 @@ const workExperiences = {
       company: "Sheraspace Ltd",
       companylogo: require("./assets/images/sheraspaceLogo.png"),
       date: "Apr 2022 – Jun-2022",
-      desc: "Flask, ReactJS, Python, APIs, PostgreSQL",
+      desc: "Built responsive user interfaces and contributed to backend development, focusing on API integration and performance optimization.",
+      tech: "Flask, ReactJS, Python, APIs, PostgreSQL",
+      url : "waltonbd.com",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -251,6 +263,8 @@ const workExperiences = {
       companylogo: require("./assets/images/diuLogo.png"),
       date: "May 2019 – May 2021",
       desc: "C/C++, Algorithm, Data Structure, Competative Programming, Mathmatics",
+      tech: "C/C++, Algorithm, Data Structure, Competative Programming, Mathmatics",
+      url : "waltonbd.com",
       color: "navy",
     },
     {
@@ -259,6 +273,8 @@ const workExperiences = {
       companylogo: require("./assets/images/gfgLogo.png"),
       date: "Jan 2019 – Sep 2021",
       desc: "Contributed technical articles to GeeksforGeeks on algorithms, data structures, machine learning (ML), deep learning (DL), and software development to support and educate the developer community.",
+      tech: "Algorithms, data structures, machine learning (ML), deep learning (DL).",
+      url : "waltonbd.com",
       color: "green",
     },
   ],

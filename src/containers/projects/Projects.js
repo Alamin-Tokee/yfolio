@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
-        <h1 className="project-title">Projects</h1>
+        <h2 className="project-title">Projects</h2>
         <div className="repo-cards-div-main-pro">
           {particularProject.projects.map((v, i) => {
             return <ProjectCard repo={v} key={i} />;

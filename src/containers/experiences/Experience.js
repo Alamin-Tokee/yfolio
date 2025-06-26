@@ -1,18 +1,18 @@
 import React from "react";
-import "./Education.css";
+import "./Experience.css";
 import Button from "../../components/button/Button";
-import { socialMediaLinks, particularEducation } from "../../Data";
-import ProjectCard from "../../components/projectCard/ProjectCard";
+import { socialMediaLinks, workExperiences } from "../../Data";
+import ExperienceCard from "../../components/experiencesCard/ExperienceCard";
 import { Fade } from "react-reveal";
 
 const Educations = () => {
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="educations">
-        <h2 className="project-title">Education</h2>
+      <div className="main" id="experiences">
+        <h1 className="project-title">Experiences</h1>
         <div className="repo-cards-div-main-edu">
-          {particularEducation.projects.map((v, i) => {
-            return <ProjectCard repo={v} key={i} />;
+          {workExperiences.experience.map((v, i) => {
+            return <ExperienceCard repo={v} key={i} />;
           })}
         </div>
         {/* <Button

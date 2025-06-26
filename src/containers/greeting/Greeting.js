@@ -31,10 +31,12 @@ const Greeting = () => {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img
+            {/* <img
               alt="man"
               src={require("../../assets/images/greetingsection.jpg")}
-            />
+            /> */}
+            <h2>About</h2>
+            <p>{greeting.about}</p>
           </div>
         </div>
       </div>

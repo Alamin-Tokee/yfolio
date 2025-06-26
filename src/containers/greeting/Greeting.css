@@ -27,6 +27,11 @@
   margin-bottom: 30px;
 }
 
+/* .button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+} */
+
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
@@ -44,9 +49,10 @@
 
 /* newly added block - start */
 .greeting-image-div {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
+  margin-top: 55px;
 }
 
 /* newly added block - end */

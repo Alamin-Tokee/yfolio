@@ -9,7 +9,7 @@ const Publications = () => {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="publications">
-        <h1 className="project-title">Publications</h1>
+        <h3 className="project-title">Publications</h3>
         <div className="repo-cards-div-main-pub">
           {particularPublication.projects.map((v, i) => {
             return <ProjectCard repo={v} key={i} />;

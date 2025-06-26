@@ -1,7 +1,6 @@
 .project-title {
-    /* font-size: 52px;
-    font-weight: 400; */
-    font-weight: bold;
+    font-size: 52px;
+    font-weight: 400;
     list-style: normal;
 }
 
@@ -11,10 +10,11 @@
     height: auto;
 }
 
-.repo-cards-div-main-pub {
+.repo-cards-div-main-edu {
     display: grid;
     /*grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1rem 1rem;*/
+    gap: 1rem 1rem; */
+
     grid-template-columns: 1fr;
     gap: 1rem;
 }
@@ -22,8 +22,7 @@
 /* Media Query */
 @media (max-width: 1380px) {
     .project-title {
-        /* font-size: 40px; */
-        font-weight: bold;
+        font-size: 40px;
     }
 }
 
@@ -33,7 +32,11 @@
         text-align: center;
     }
 
-    .repo-cards-div-main-pub {
+    .repo-cards-div-main-edu {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
+
+    /* .repo-cards-div-main-edu {
+        grid-template-columns:  1fr;
+    } */
 }

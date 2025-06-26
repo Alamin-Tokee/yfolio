@@ -27,13 +27,16 @@
 }
 
 .skills-heading {
-    font-size: 56px;
-    font-weight: 400;
+    /* font-size: 56px; */
+    /* font-weight: 400; */
+    font-weight: bold;
+    text-align: center;
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
     .skills-heading {
+        font-weight: 400;
         font-size: 40px;
     }
 }
